@@ -2,7 +2,7 @@
 ## Name:
 Colin Findlay's Portfolio
 ## Description:
-This is a work in progress (in the very early stages as of 2022.03.28).
+This is a work in progress (created 2022.03.28).
 ## Installation:
 N/A
 ## Usage:
