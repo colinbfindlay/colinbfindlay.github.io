@@ -12,6 +12,9 @@
   <!-- LINK TO THE CSS STYLESHEET I CREATED-->
   <link rel="stylesheet" href="css/cfstyles.css">
 
+  <!-- LINK TO FONT AWESOME KIT -->
+  <script src="https://kit.fontawesome.com/25b80b192c.js" crossorigin="anonymous"></script>
+
 
 </head>
 <!--<body style="background-image: url('/assets/images/kupono-kuwamura-LzgK6IMoSZM-unsplash.jpg')">-->
@@ -45,7 +48,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="projects.html">Contact</a>
+            <a class="nav-link" href="index.html#contact">Contact</a>
           </li>
         </ul>
         <!-- DISABLED SEARCH
@@ -59,20 +62,32 @@
   </nav>  
 
   <!-- MAIN PAGE TITLE -->
-  <h1 style="text-align:center">Colin's MIT Portfolio (under construction)</h1>
+  <h1 class="display-1" style="text-align:center">Colin Findlay's Portfolio</h1>
+  <h4 style="text-align:center;color:brown">MIT Professional Certificate in Coding: Full Stack Development with MERN</h4>
+  <h4 style="text-align:center;color:brown">February 2022 - Section B</h4>
+
   <br>
 
   <!-- 1ST GRID LAYOUT -->
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-3">
-        <h3>Quick Links</h3>
+        <h3 style="color:blue"><i class="fa-solid fa-link fa-lg"></i>  Quick Links</h3>
         <br>
-        <button type="button" class="btn btn-primary">Primary</button>
+        <div class="list-group">
+          <a href="https://colinbfindlay.github.io/pacmen/" target="_blank"  class="list-group-item list-group-item-action">
+            Launch PacMen
+          </a>
+          <a href="https://colinbfindlay.github.io/eyes/" target="_blank"  class="list-group-item list-group-item-action">Launch Eyes Movement</a>
+
+          <a href="https://colinbfindlay.github.io/mapanimation/" target="_blank"  class="list-group-item list-group-item-action">Launch Bus Tracker (Refactored to Vacation Tracker)</a>
+        </div>
+
+
       </div>
       <!-- EMBEDDED VIDEO -->
       <div class="col-lg-6">
-        <h3 style="text-align:center">Intro Video</h3>
+        <h3 style="text-align:center">Introduction</h3>
         <center>
           <div class="embed-responsive embed-responsive-16by9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/-aTu08_a1WY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -85,8 +100,8 @@
         
         <!-- BIO  -->
         
-          <img src="assets/images/CFheadshot.jpg" alt="..." class="rounded" width="100">
-          <h3 style ="text-align:left">Profile</h3>
+          <img src="assets/images/CFheadshot.jpg" alt="..." class="rounded" width="75">
+          <h3 style ="text-align:left">Bio</h3>
 
           <p style ="text-align:left">
             Over 20 years’ experience working in the Office Furniture Industry.   Primary roles were in Senior Management and Project Management positions within Teknion Dealerships.  Main areas of responsibility include:
@@ -115,6 +130,8 @@
           </div>
 
           <!-- PROJECT EXPERIENCE -->
+
+          <br>
 
           <h3 style ="text-align:left">Recent Project Experience</h3>
 
@@ -163,7 +180,7 @@
           </dl>
 
           <!-- EMPLOYMENT HISTORY -->
-
+          <br>
           <h3 style ="text-align:left">Employment History</h3>
 
           <table class="table table-dark">
@@ -217,22 +234,42 @@
               </tr>
 
             </tbody>
-          </table>          
+          </table>  
+          
+          <!-- CONTACT -->
+          <br>
+          <h3 style ="text-align:left"><a id="contact">Colin Findlay's Contact Info</a></h3>
+          <p><a href="mailto:colinbfindlay@gmail.com"><i class="fa-solid fa-envelope fa-2xl"></i></a> Email is preferred contact method (colinbfindlay@gmail.com)</p>
 
+          <p><a href="https://github.com/colinbfindlay" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>  colinbfindlay on GitHub</p>
 
+          <p><a href="http://twitter.com/findlay_colin" target="_blank"><i class="fa-brands fa-twitter fa-2xl"></i></a> @findlay_colin on Twitter </p>
 
+          <p><a href="#" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a> Intentionally Disabled (Please email me if this will affect my grade) </p>
+
+          <br>
+          <br>
+          <br>
+          
 
 
 
       <!-- LINKS TO GITHUB REPOS -->
       </div>
       <div class="col-sm-3" style="text-align:right">
-        <h3>GitHub Repositories</h3>
+        <h3><i class="fa-brands fa-github fa-lg"></i>  GitHub Repositories</h3>
         <br>
-        <a href="https://github.com/colinbfindlay/colinbfindlay.github.io" target="_blank">Colin Findlay's MIT Portfolio</a><br>
-        <a href="https://github.com/colinbfindlay/pacmen" target="_blank">PacMan Factory</a><br>
-        <a href="https://github.com/colinbfindlay/eyes" target="_blank">Eyes Movement</a><br>
-        <a href="https://github.com/colinbfindlay/mapanimation" target="_blank">Map Animation</a>
+        <div class="list-group">
+          <a href="https://github.com/colinbfindlay/colinbfindlay.github.io" target="_blank"  class="list-group-item list-group-item-action">Colin Findlay's MIT Portfolio</a>
+
+          <a href="https://github.com/colinbfindlay/pacmen" target="_blank" class="list-group-item list-group-item-action">PacMan Factory</a>
+
+          <a href="https://github.com/colinbfindlay/eyes" target="_blank"  class="list-group-item list-group-item-action">Eyes Movement</a>
+
+          <a href="https://github.com/colinbfindlay/mapanimation" target="_blank"  class="list-group-item list-group-item-action">Map Animation (Bus Tracker)</a>
+
+
+        </div>
       </div>
 
     </div>
@@ -249,4 +286,10 @@
   <!--<script src="js/cfscript.js"></script>-->
 
 </body>
+
+<footer style="background-color:black">
+
+  <p style="color:white"> &copy; Colin Findlay 2022</p>
+  
+</footer>
 </html>
